@@ -1,0 +1,47 @@
+<?php
+/**
+ * @var Laminas\View\Renderer\PhpRenderer $this
+ */
+?>
+<div class="p-5 mb-4 bg-light rounded-3">
+    <h1 class="display-4">Lista de Clientes</h1>
+
+    <hr>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Email</th>
+                <th>Endereço</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>João Silva</td>
+                <td>(123) 456-7890</td>
+                <td>joao@example.com</td>
+                <td>Rua Principal, 123</td>
+                <td>
+                    <button class="btn btn-primary">Alterar</button>
+                    <button class="btn btn-danger">Excluir</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Maria Santos</td>
+                <td>(987) 654-3210</td>
+                <td>maria@example.com</td>
+                <td>Avenida Secundária, 456</td>
+                <td>
+                    <button class="btn btn-primary">Alterar</button>
+                    <button class="btn btn-danger">Excluir</button>
+                </td>
+            </tr>
+            <!-- Adicione mais linhas para outros clientes, se necessário -->
+        </tbody>
+    </table>
+</div>
